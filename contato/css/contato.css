@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.logo{
+    width: 30px;
+    height: 30px;
+}   
+
+.d1{
+padding: 10px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.navbar-brand{
+
+    font-family: 'Aclonica', sans-serif;
+    font-size: 70px;
+    margin-top: 8px;
+    color: aliceblue;
+}
+
+.bk1{
+    
+    height: 50px;
+    width: 100%;
+}
+
+
+
+/* CONTATO */
+
+.container {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.img2{
+    height: 250px;
+    width: 320px;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: rgba(0, 30, 255, 0.35) 10px 5px 25px;
+    cursor: pointer;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s;
+  
+}
+
+.card:hover {
+    background-image: linear-gradient(#969697, #dfdde2);
+}
+
+.img {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+   
+}
+
+.card .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card:hover .img span {
+    font-size: 28px;
+}
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card:hover .content {
+    height: 150px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+}
+
+.card .content .title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 15px;
+    font-weight: 100;
+    
+    
+}
+
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 45px;
+}
+
+
+.content a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
