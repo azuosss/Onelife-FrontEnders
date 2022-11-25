@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.logo{
+    width: 30px;
+    height: 30px;
+}   
+
+.d1{
+padding: 10px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.navbar-brand{
+
+    font-family: 'Aclonica', sans-serif;
+    font-size: 70px;
+    margin-top: 8px;
+    color: aliceblue;
+}
+
+.bk1{
+    
+    height: 50px;
+    width: 100%;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.qs{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.equipe{
+   font-size: 50px
+   ;
+}
+.logo1{
+    width: 200px;
+    height: 200px;
+ 
+}
+
+.equipe{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
